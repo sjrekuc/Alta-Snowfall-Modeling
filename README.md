@@ -35,6 +35,11 @@ Skiers love skiing in good snow conditions with fresh snowfall, but most skiers 
   - 2.1 - Capstone1_Alta_EDA.ipynb <- Exploratory Data Analysis of the data; part 1 of 2 <br>
   - 2.1 - Capstone1_Alta_EDA_2_pre-processing.ipynb <- Exploratory Data Analysis of the data; part 2 of 2 and preprocessing <br>
   - 3.0 - Capstone1_Alta_Modeling.ipynb <- Modeling of the data in time series with regression and RF <br>
+  - extra <- notebooks with some code that were not used in the end <br>
+  
+- REPORTS <- Reports detailing the entire data science process for this project <br> 
+  - Final_Rep_Alta_Snow.pdf <- Report detailing the data science process for this project <br>
+  - Pres_Alta_Snow.pdf <- Presentation slides outlining the data science process for this project <br>
 
 ├── LICENSE <br>
         └── alta_ski_v2.csv   
