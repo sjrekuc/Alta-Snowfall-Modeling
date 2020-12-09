@@ -15,9 +15,22 @@ Skiers love skiing in good snow conditions with fresh snowfall, but most skiers 
     - PDO_NOAA.csv.txt  <- Original CSV Data from NOAA for the Pacific Decadal Oscillation (PDO) <br>
     - AMO_raw.csv       <- Original CSV Data from NOAA for the Atlantic Multi-Decadal Oscillation (AMO) <br>
   - Interim       <- Intermediate data that has been cleaned, combined, and transformed <br>
-          └── alta_snow_clean3.pkl   <- pickled (python binary) dataframe of combined and cleaned snowfall, temp, PDO, AMO data <br>
-          └── alta_snow_clean3.csv   <- CSV dataframe of combined and cleaned snowfall, temp, PDO, AMO data <br>
-          
+    - alta_snow_clean3.pkl   <- pickled (python binary) dataframe of combined and cleaned snowfall, temp, PDO, AMO data; between data wrangling + EDA <br>
+    - alta_snow_clean3.csv   <- CSV dataframe of combined and cleaned snowfall, temp, PDO, AMO data <br>
+    - alta_snow_eda.pkl      <- pickled (python binary) dataframe with some additional features; between EDA 1 + 2 <br>
+    - alta_snow_eda.csv      <- csv dataframe with some additional features; between EDA 1 + 2 <br>
+    - win_snow_eda.pkl       <- pickled (python binary) dataframe that is just focused on winter; between EDA 1 + 2 <br>
+    - win_snow_eda.csv       <- csv dataframe that is just focused on winter; between EDA 1 + 2 <br>
+    - X14_snow_pp.pkl        <- pickled dataframe that is summarized by 14-day snowfall; between EDA 2 + modeling <br>
+    - X14_snow_pp.csv        <- csv dataframe that is summarized by 14-day snowfall; between EDA 2 + modeling <br>
+    - X30_snow_pp.pkl        <- pickled dataframe that is summarized by 30-day snowfall; between EDA 2 + modeling <br>
+    - X30_snow_pp.csv        <- pickled dataframe that is summarized by 30-day snowfall; between EDA 2 + modeling <br>
+  - Processed    <- Final Data Set used in modeling <br>
+    - X7_snow_pp.pkl         <- pickled dataframe that is summarized by 7-day snowfall; between EDA 2 + modeling <br>
+    - X7_snow_pp.csv         <- csv dataframe that is summarized by 7-day snowfall; between EDA 2 + modeling <br>
+
+- NOTEBOOKS <br>
+
 
 ├── LICENSE <br>
         └── alta_ski_v2.csv   
