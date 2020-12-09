@@ -25,12 +25,16 @@ Skiers love skiing in good snow conditions with fresh snowfall, but most skiers 
     - X14_snow_pp.csv        <- csv dataframe that is summarized by 14-day snowfall; between EDA 2 + modeling <br>
     - X30_snow_pp.pkl        <- pickled dataframe that is summarized by 30-day snowfall; between EDA 2 + modeling <br>
     - X30_snow_pp.csv        <- pickled dataframe that is summarized by 30-day snowfall; between EDA 2 + modeling <br>
+    - unused    <- folder containing interim data that went unused <br>           
   - Processed    <- Final Data Set used in modeling <br>
     - X7_snow_pp.pkl         <- pickled dataframe that is summarized by 7-day snowfall; between EDA 2 + modeling <br>
     - X7_snow_pp.csv         <- csv dataframe that is summarized by 7-day snowfall; between EDA 2 + modeling <br>
 
-- NOTEBOOKS <br>
-
+- NOTEBOOKS <- Named in order of data processing <br>
+  - 1.0 - Capstone1_Data_Wrangling.ipynb <- Load the data, clean the data, and combine into 1 dataframe <br>
+  - 2.1 - Capstone1_Alta_EDA.ipynb <- Exploratory Data Analysis of the data; part 1 of 2 <br>
+  - 2.1 - Capstone1_Alta_EDA_2_pre-processing.ipynb <- Exploratory Data Analysis of the data; part 2 of 2 and preprocessing <br>
+  - 3.0 - Capstone1_Alta_Modeling.ipynb <- Modeling of the data in time series with regression and RF <br>
 
 ├── LICENSE <br>
         └── alta_ski_v2.csv   
