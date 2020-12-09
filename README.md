@@ -7,11 +7,12 @@ Skiers love skiing in good snow conditions with fresh snowfall, but most skiers 
 ## Project Organization
 
 -----------
-├── LICENSE
-├── README.md     <- Top-Level Readme for anyone interested in this project
-├── DATA
-|   ├── Raw       <- Original CSV Data from NOAA
-|       └── alta_ski_v2.csv   <- Original CSV Data from NOAA station at the base of Alta (UDOT Station)
-|       └── PDO_NOAA.csv.txt  <- Original CSV Data from NOAA for the Pacific Decadal Oscillation (PDO)
-|       └── AMO_raw.csv       <- Original CSV Data from NOAA for the Atlantic Multi-Decadal Oscillation (AMO)
+├── LICENSE <br>
+├── README.md     <- Top-Level Readme for anyone interested in this project <br>
+├── DATA <br>
+|   ├── Raw       <- Original CSV Data from NOAA <br>
+|       └── alta_ski_v2.csv   <- Original CSV Data from NOAA station at the base of Alta (UDOT Station) <br>
+|       └── PDO_NOAA.csv.txt  <- Original CSV Data from NOAA for the Pacific Decadal Oscillation (PDO) <br>
+|       └── AMO_raw.csv       <- Original CSV Data from NOAA for the Atlantic Multi-Decadal Oscillation (AMO) <br>
+
 |
